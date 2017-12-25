@@ -7,7 +7,7 @@ const path = require('path');
 
 //to open up the folder by joinng the main directory name and the public folder
 app.use(express.static(path.join(__dirname, '/public')));
-
+//test
 // Start the server by connecting to the port:
 const server = app.listen(3000);
 console.log(server.address().port);
